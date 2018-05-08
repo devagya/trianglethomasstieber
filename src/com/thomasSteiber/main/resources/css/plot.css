@@ -1,0 +1,43 @@
+
+* {
+    -fx-mainWindowBackgroundColor: #323232;
+    -fx-menubarBackgroundColor: #545454;
+    -fx-menuTextColor: #bdbdbd;
+    -fx-menubarHoverColor: #383838;
+    -fx-WhiteColor: white;
+    -fx-AreaPlotColor: #8bcad9;
+}
+
+.default-color0.chart-area-symbol {
+    -fx-background-color: transparent, transparent;
+}
+
+.default-color0.chart-series-area-line {
+    -fx-stroke: black;
+}
+
+.default-color0.chart-series-area-fill {
+    -fx-fill: -fx-AreaPlotColor;
+}
+.check-box .box {
+    -fx-background-color: -fx-WhiteColor;
+    -fx-border-color:grey;
+    -fx-border-radius:3px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: -fx-WhiteColor;
+}
+
+.check-box:selected .box {
+    -fx-background-color: #28a3f4;
+}
+.check-box {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+}
+.chart-symbol{
+    -fx-stroke: #a9e200;
+    -fx-shape: "M0,4 L2,4 L4,8 L7,0 L9,0 L4,11 Z";
+}
